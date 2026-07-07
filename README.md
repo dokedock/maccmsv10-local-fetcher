@@ -16,7 +16,7 @@
 
 - `collector/app/`：后端（FastAPI）
 - `web/`：纯静态页面（HTML/JS/CSS）
-- `data/`：运行时数据目录（自动生成，默认已被 Git 忽略）
+- `data/`：运行时数据目录（自动生成）
 
 ## 运行环境
 
@@ -44,13 +44,13 @@ Windows 可使用 `run.bat`，macOS 可使用 `run.command`（可能需要先在
 - 无认证（本地代理常见）：
 
 ```
-socks5h://127.0.0.1:7891
+socks5://127.0.0.1:xxxx
 ```
 
 - 有用户名密码：
 
 ```
-socks5h://user:pass@127.0.0.1:7891
+socks5://user:pass@127.0.0.1:xxxx
 ```
 
 ## 免责声明（请务必阅读）
